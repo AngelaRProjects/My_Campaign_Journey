@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Angela Ruslander">
+    <meta name="description" content="Contact Me Page">
+    <title>Contact</title>
+    <meta name="referrer" content="origin" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/Contact.png">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Campaign Stops</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="buffalo.html">Buffalo, NY | 2004</a></li>
+              <li><a class="dropdown-item" href="newyork.html">New York, NY | 2005</a></li>
+              <li><a class="dropdown-item" href="dubuque.html">Dubuque, IA | 2006</a></li>
+              <li><a class="dropdown-item" href="waterloo.html">Waterloo, IA | 2006</a></li>
+              <li><a class="dropdown-item" href="manchester.html">Manchester, NH | 2010</a></li>
+              <li><a class="dropdown-item" href="wilmington.html">Wilmington, DE | 2010</a></li>
+              <li><a class="dropdown-item" href="fairfax.html">Fairfax, VA | 2011</a></li>
+              <li><a class="dropdown-item" href="pittsburgh.html">Pittsburgh, PA | 2012</a></li>
+              <li><a class="dropdown-item" href="columbus.html">Columbus, OH | 2012</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+
+<div class="mt-4 p-5 text-dark" style="background-image: url(img/Many_vote_stickers.jpg); background-size: cover; background-position: center;" >
+  <h1>Contact Me!</h1>
+  <h2>I would love to hear from you.</h2>
+  </div>
+
+
+<form role="form" action="http://formspree.io/mrbllejd" method="POST">
+    <input type="hidden" name="_next" value="//site.io/thanks.html" />
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="text" name="_gotcha" style="display:none" />
+<div class="mb-3">
+  <label for="yourName" class="form-label">Your Name</label>
+  <input type="text" class="form-control" name="yourName" id="yourName" placeholder="Jane Doe">
+</div>  
+<div class="mb-3">
+  <label for="email" class="form-label">Email address</label>
+  <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="textArea" class="form-label">Message</label>
+  <textarea class="form-control" name="message"id="textArea" rows="3" placeholder="Your message goes here."></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+ 
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<footer class="text-lg-start bg-body-primary text-muted">
+  <div class=" mt-2 p-4 text-secondary" style="background-color: black; opacity: .9;">
+    &copy; 2025 Angela Ruslander:
+    <a class="text-reset fw-bold" href="index.html">My Campaign Journey</a>
+  </div>
+ </footer>
+
+</html>
